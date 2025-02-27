@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Enter the size of an array!");
         int size = new Scanner(System.in).nextInt();
-        int arr[] = new int [size];
+        int arr[] = new int[size];
         for (int i = 0; i < arr.length; i++) {
             arr[i] = (int) (Math.random() * 100 - 1);
         }
@@ -22,3 +22,5 @@ public class Main {
         }
     }
 }
+
+    

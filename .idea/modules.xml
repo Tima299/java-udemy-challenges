@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaUdemyChallenges.iml" filepath="$PROJECT_DIR$/JavaUdemyChallenges.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-udemy-challenges.iml" filepath="$PROJECT_DIR$/java-udemy-challenges.iml" />
     </modules>
   </component>
 </project>
