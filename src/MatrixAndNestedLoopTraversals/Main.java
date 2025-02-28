@@ -24,6 +24,26 @@ public class Main {
             }
             System.out.println();
         }*/
+        array2[1] = new int[]{10, 20};
         System.out.println(Arrays.deepToString(array2));
+
+        Object[] objects = new Object[3];
+        System.out.println(Arrays.toString(objects));
+        objects[0] = new String[] {"a", "b", "c"};
+        System.out.println(Arrays.deepToString(objects));
+        objects[1] = new String[][] {
+                {"1", "2"},
+                {"3", "4", "5"},
+                {"6", "7", "8", "9"}
+        };
+        System.out.println(Arrays.deepToString(objects));
+        objects[2] = new int[2][2][2];
+        System.out.println();
+        System.out.println(Arrays.deepToString(objects));
+        for (Object object : objects) {
+            System.out.println("Element type: " + object.getClass().getSimpleName());
+            System.out.println("Element toString: " + object);
+            System.out.println(Arrays.deepToString((Object[]) object));
+        }
     }
 }
