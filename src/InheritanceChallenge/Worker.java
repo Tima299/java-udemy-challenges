@@ -2,7 +2,7 @@ package InheritanceChallenge;
 
 public class Worker {
     private String name;
-    private String birthDate;  //22/04/2004
+    private String birthDate;
     protected String endDate;
     public Worker() {
 

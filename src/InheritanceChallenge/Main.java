@@ -7,12 +7,12 @@ public class Main {
         printGetAge(tim);
         printCollectPay(tim);
 
-        SalariedEmployee timsWife = new SalariedEmployee("Tim's Wife", "19/05/2005",  "12/12/2024", 12000);
-        printEmployee(timsWife);
-        printGetAge(timsWife);
-        printCollectPay(timsWife);
-        timsWife.retire();
-        printPensionCheck(timsWife);
+        SalariedEmployee Sam = new SalariedEmployee("Sam", "30/04/2005",  "12/12/2024", 12000);
+        printEmployee(Sam);
+        printGetAge(Sam);
+        printCollectPay(Sam);
+        Sam.retire();
+        printPensionCheck(Sam);
 
         HourlyEmployee mary = new HourlyEmployee("Mary", "22/04/2004",  "01/01/2020", 15);
         System.out.println(mary);
