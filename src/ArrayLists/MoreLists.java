@@ -14,9 +14,23 @@ public class MoreLists {
         groceries.add("yogurt");
         System.out.println(groceries);
         ArrayList<String> nextList = new ArrayList<>(
-                List.of("pickles", "cheese", "soda"));
+                List.of("pickles", "mustard", "soda"));
         System.out.println(nextList);
         groceries.addAll(nextList);
+        System.out.println(groceries);
+        System.out.println("Third item: " + groceries.get(2));
+        if(groceries.contains("mustard")) {
+            System.out.println("Mustard is in the list");
+        } else {
+            System.out.println("Mustard is not in the list");
+        }
+        groceries.add("yogurt");
+        System.out.println("first index of yogurt: " + groceries.indexOf("yogurt"));
+        System.out.println("last index of yogurt: " + groceries.lastIndexOf("yogurt"));
+        System.out.println(groceries);
+        groceries.remove(1);
+        System.out.println(groceries);
+        groceries.remove("yogurt");
         System.out.println(groceries);
     }
 }
